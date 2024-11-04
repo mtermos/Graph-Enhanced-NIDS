@@ -3,7 +3,7 @@ import networkx as nx
 import os
 import shutil
 import pytest
-from graph.graph_construction.session_graph import define_sessions, create_weightless_session_graph
+from src.graph.graph_construction.session_graph import define_sessions, create_weightless_session_graph
 
 
 @pytest.fixture

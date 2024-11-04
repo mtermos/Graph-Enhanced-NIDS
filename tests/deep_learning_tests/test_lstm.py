@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from deep_learning.lstm import MyLSTM
+from src.deep_learning.lstm import MyLSTM
 
 
 class TestMyLSTM(unittest.TestCase):

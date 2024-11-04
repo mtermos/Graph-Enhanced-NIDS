@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from dataset.undersample_classes import undersample_classes
+from src.dataset.undersample_classes import undersample_classes
 
 
 def test_undersample_classes():

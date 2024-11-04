@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from dataset.ecdf import prepare_df, ecdf, plot_ecdf, plot_feature_ecdf
+from src.dataset.ecdf import prepare_df, ecdf, plot_ecdf, plot_feature_ecdf
 
 
 @pytest.fixture

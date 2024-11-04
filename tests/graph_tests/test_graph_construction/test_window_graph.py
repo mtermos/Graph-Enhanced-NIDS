@@ -3,7 +3,7 @@ import pandas as pd
 import networkx as nx
 import os
 import shutil
-from graph.graph_construction.window_graph import create_weightless_window_graph
+from src.graph.graph_construction.window_graph import create_weightless_window_graph
 
 
 class TestCreateWeightlessWindowGraph(unittest.TestCase):

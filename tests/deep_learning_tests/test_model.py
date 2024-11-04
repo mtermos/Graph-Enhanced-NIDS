@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from deep_learning.model import Model
+from src.deep_learning.model import Model
 
 
 class DummyModel(Model):

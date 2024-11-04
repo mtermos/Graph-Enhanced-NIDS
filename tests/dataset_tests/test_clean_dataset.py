@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 import numpy as np
-from dataset.clean_dataset import clean_dataset
+from src.dataset.clean_dataset import clean_dataset
 
 
 class DatasetConfig:

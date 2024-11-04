@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from dataset.features_analysis import prepare_dataset, apply_variance_threshold, apply_correlation_threshold, feature_analysis_pipeline
+from src.dataset.features_analysis import prepare_dataset, apply_variance_threshold, apply_correlation_threshold, feature_analysis_pipeline
 
 
 @pytest.fixture
